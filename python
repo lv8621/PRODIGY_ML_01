@@ -13,22 +13,19 @@ X = np.array([[1500, 3, 2],
 
 y = np.array([300000, 350000, 250000, 400000, 280000])
 
-# Step 1: Create a linear regression model
+# Step 1: Create and fit the linear regression model
 model = LinearRegression()
-
-# Step 2: Fit the model to the training data
 model.fit(X, y)
 
-# Step 3: Make predictions on new data (optional)
+# Step 2: Make predictions on new data (optional)
 # Replace 'new_data' with the data for which you want to predict prices
 # new_data = np.array([[1700, 3, 2], [1600, 2, 1]])
 # predicted_prices = model.predict(new_data)
 
-# Step 4: Evaluate the model
+# Step 3: Evaluate the model
 y_pred = model.predict(X)
 mse = mean_squared_error(y, y_pred)
 r2 = r2_score(y, y_pred)
 
 print(f"Mean Squared Error: {mse}")
 print(f"R-squared: {r2}")
-
