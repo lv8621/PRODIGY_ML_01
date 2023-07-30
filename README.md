@@ -23,6 +23,7 @@ The dataset used for this project contains historical data of houses with featur
 The structure of the dataset is as follows:
 
 SquareFootage    Bedrooms	Bathrooms	 Price
+    
     1500	        3	       2	    300000
     1800	        4	       3	    350000
     1200	        2	       2	    250000
