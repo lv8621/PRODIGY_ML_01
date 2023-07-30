@@ -6,7 +6,8 @@ Table of Contents
 
 Introduction
 Dataset
-Installation
+Instal
+lation
 Usage
 Results
 Contributing
@@ -24,11 +25,11 @@ The structure of the dataset is as follows:
 
 SquareFootage    Bedrooms	Bathrooms	 Price
     
-    1500	        3	       2	    300000
-    1800	        4	       3	    350000
-    1200	        2	       2	    250000
-    2000	        4	       2	    400000
-    1400	        3	       1	    280000
+    1500	     3	            2	         300000
+    1800	     4	            3	         350000
+    1200	     2	            2	         250000
+    2000	     4	            2	         400000
+    1400	     3	            1	         280000
 
 Installation
 
@@ -36,8 +37,15 @@ To run this project locally, follow these steps:
 
 Clonethis repository to your local machine.
 Install the required dependencies by running: pip install numpy pandas scikit-learn.
+
 Usage
 To train the linear regression model and predict house prices:
+
+Prepare your dataset: Ensure that you have a CSV file with columns SquareFootage, Bedrooms, Bathrooms, and Price containing the house data. Replace house_data.csv with your dataset file name.
+
+Train the linear regression model: Open the Jupyter Notebook or Python script provided in the repository and run the code to train the model using the given dataset.
+
+Make predictions: After training the model, you can use it to predict house prices for new data by providing the features (square footage, bedrooms, and bathrooms) of the houses you want to predict.
 
 Results
 
@@ -56,8 +64,3 @@ License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 With this README, you provide clear information about the purpose of the project, the dataset used, how to set up the project, and how to use the linear regression model for predicting house prices. Additionally, you inform potential contributors about how they can contribute to the project and provide the license information for the project's use.
-
-
-
-
-
